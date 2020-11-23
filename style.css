@@ -1,0 +1,324 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.header__wrapper {
+  position: relative;
+  height: 108px;
+  background: #fff;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.mainLogo {
+  position: absolute;
+  top: 50%;
+  left: 100px;
+  transform: translate(0, -50%);
+}
+
+.subLogo {
+  position: absolute;
+  top: 50%;
+  right: 100px;
+  transform: translate(0, -50%);
+}
+
+.menuBtn {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 30px;
+  height: 20px;
+}
+
+.menuBtn span:nth-child(1),
+.menuBtn span:nth-child(2),
+.menuBtn span:nth-child(3) {
+  display:block;
+  border-top: 2px solid black;
+  margin-bottom: 6px;
+}
+
+/* 여기까지 헤드 */
+
+.main__wrapper {
+ width: 1040px;
+ margin: 0 auto;
+}
+
+.main__topic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__topic__img {
+  margin-bottom: 30px;
+}
+
+.head__line {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+/* 
+.bottom__pointer {
+  position: absolute;
+  width: 50px;
+  height: 50px;  
+  border-right: 1px solid black;
+  background: coral;
+  top:0;
+  right: 1px;
+} */
+
+.about .para span {
+  font-size: 24px;
+  margin-right: 80px;
+}
+
+.para {
+  display: inline;
+  font-size: 30px;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+
+.view__more {
+  position: relative;
+  width: 100%;
+  margin: 30px 0 200px 0;
+  cursor: pointer;
+}
+
+.view__more .arrow {
+  position: absolute;
+  background: url(./images/circle_arrow.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+}
+
+.view__more .text__button {
+  position: absolute;
+  left: 25px;
+  font-size: 22px;
+  transition: .3s;
+} 
+
+.view__more:hover .text__button {
+  left: 30px;
+}
+
+
+/* 저널리즘 섹션 */
+
+
+.journalism__section {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px 0;
+  border-top: 1px solid rgb(167, 167, 167);
+}
+
+.journalism__section .img__section {
+  padding-left: 20px;
+}
+
+.text__section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.text__section h3 {
+  font-size: 24px;
+}
+
+.text__section p {
+  font-size: 30px;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+
+.journalism__section__img {
+  width: 100%;
+}
+
+.learn__more,
+.advertise__more {
+  width: 144px;
+  height: 38px;
+  border: 1px solid rgb(196, 196, 196);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .3s;
+}
+.learn__more:hover,
+.advertise__more:hover {
+  background: black;
+  color: white;
+}
+
+.learn__more span,
+.advertise__more span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* 더먼들리 섹션 */
+
+.monthly__section {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px 0;
+  border-top: 1px solid rgb(167, 167, 167);
+}
+
+.monthly__section .text__section {
+  order: 1;
+  padding-left: 20px;
+}
+
+.monthly__section__img {
+  width: 100%;
+}
+
+.button__section {
+  display: flex;
+}
+
+.button__section div:nth-child(1) {
+  margin-right: 15px;
+}
+
+
+/* 새러데이 섹션 */
+
+.saturday__section {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding:20px 0;
+  border-top: 1px solid rgb(167, 167, 167);
+}
+
+.saturday__section .img__section {
+  padding-left: 20px;
+}
+
+.saturday__section__img {
+  width: 100%;
+}
+
+
+/* 7am */
+
+
+.sevenam__section {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding:20px 0;
+  border-top: 1px solid rgb(167, 167, 167);
+}
+
+.sevenam__section .text__section {
+  order: 1;
+  padding: 20px;
+}
+
+.sevenam__section__img {
+  width: 100%;
+}
+
+/* 쿼털리 섹션 */
+
+.two__column__section {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px 0;
+  border-top: 1px solid rgb(167, 167, 167);
+}
+
+.quarterly__essay {
+  padding-right: 10px;
+}
+.quarterly__img {
+  width: 100%;
+}
+.australian__foreign {
+  padding-left: 10px;
+}
+.australian__img {
+  width: 100%;
+}
+
+.two__column__section h3 {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.two__column__section p {
+  font-size: 24px;
+  margin: 20px 0 40px 0;
+  /* letter-spacing: 2px; */
+  line-height: 30px;
+}
+
+
+/* 마지막 3단락 섹션 */
+
+
+.contact__section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 20px 0;
+  border-top: 1px solid rgb(167, 167, 167);
+}
+
+.contact__section .text__section h3 {
+  margin-bottom: 30px;
+}
+
+.contact__section .text__section p {
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+
+/* 푸터 */
+
+
+.footer__wrapper {
+  width: 100%;
+  height: 296px;
+  background: #464646;
+  color: white;
+}
+
+.footer__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 1040px;
+  margin: 0 auto;
+}
+.footer__grid1 {
+  height: 296px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
